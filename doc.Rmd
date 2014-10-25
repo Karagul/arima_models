@@ -12,6 +12,19 @@ The sample code and exercises provided in the text, combined with the **R [forec
 - Autocorrelation function estimation   
 - [Seasonal](https://www.otexts.org/fpp/8/9) and [Non-seasonal](https://www.otexts.org/fpp/8/5) ARIMA models
 
+### ARIMA Models   
+ARIMA is an acronym for AutoRegressive Integrated Moving Average model (“integration” in this context is the reverse of differencing).  The notation for non-seasonal models is ARIMA(p,d,q) where:   
+
+p = order of the autoregressive part   
+d = degree of first differencing involved   
+q = order of the moving average part   
+
+For seasonal models, the notation is ARIMA(p,d,q)(P,D,Q)m, where:   
+
+P = order of the seasonal autoregressive part   
+D = degree of seasonal first differencing involved   
+Q = order of the seasonal moving average part   
+m = number of periods per season   
 
 ###References:   
   
